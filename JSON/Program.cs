@@ -26,7 +26,8 @@ var person = new Person
 
 var options = new JsonSerializerOptions {
     WriteIndented = true,
-    PropertyNamingPolicy = new LowerCaseNamingPolicy(),
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+    //PropertyNamingPolicy = new LowerCaseNamingPolicy(),
     // IncludeFields = true - > i ovdje se mogu fieldovi ukljuciti u serialiazaciju 
 }; 
 
