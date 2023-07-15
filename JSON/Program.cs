@@ -1,4 +1,5 @@
-﻿using JSON.Models;
+﻿using JSON.Helpers;
+using JSON.Models;
 using System.Text.Json;
 
 var person = new Person
@@ -25,7 +26,8 @@ var person = new Person
 
 var options = new JsonSerializerOptions {
     WriteIndented = true,
-    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+    PropertyNamingPolicy = new LowerCaseNamingPolicy(),
+    // IncludeFields = true - > i ovdje se mogu fieldovi ukljuciti u serialiazaciju 
 }; 
 
 string json = JsonSerializer.Serialize<Person>(person, options);
