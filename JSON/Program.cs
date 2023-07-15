@@ -9,7 +9,7 @@ var person = new Person
     FirstName = "John",
     LastName = "McStevenson",
     IsAlive = true,
-    Address = new Address
+    Address = new Address 
     {
         StreetName = "1 Main Street",
         City = "N.Y.",

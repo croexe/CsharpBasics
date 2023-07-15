@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "surName": "McStevenson",
+  "firstname": "John",
+  "address": {
+    "streetname": "1 Main Street",
+    "city": "N.Y.",
+    "zipcode": "320000"
+  },
+  "phones": [
+    {
+      "phonetype": "Home",
+      "phonenumber": "0673235326"
+    },
+    {
+      "phonetype": "Mobile",
+      "phonenumber": "0673347235326"
+    }
+  ],
+  "height": "182"
+}
