@@ -63,9 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExtensibility", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON", "JSON\JSON.csproj", "{5FBF2308-16CF-4119-90BC-27881639A07B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.Deserialization", "JSON.Deserialization\JSON.Deserialization.csproj", "{4F5C2073-E4E0-44D5-824A-CA28AF4E02E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON.Deserialization", "JSON.Deserialization\JSON.Deserialization.csproj", "{4F5C2073-E4E0-44D5-824A-CA28AF4E02E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.API.Deserialize.Response", "JSON.API.Deserialize.Response\JSON.API.Deserialize.Response.csproj", "{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON.API.Deserialize.Response", "JSON.API.Deserialize.Response\JSON.API.Deserialize.Response.csproj", "{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.Deserialize.Response.Consumer", "JSON.Deserialize.Response.Consumer\JSON.Deserialize.Response.Consumer.csproj", "{6A0012AF-F672-4A96-B382-DEDEC2987211}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0012AF-F672-4A96-B382-DEDEC2987211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0012AF-F672-4A96-B382-DEDEC2987211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0012AF-F672-4A96-B382-DEDEC2987211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0012AF-F672-4A96-B382-DEDEC2987211}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
