@@ -67,9 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON.Deserialization", "JSO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON.API.Deserialize.Response", "JSON.API.Deserialize.Response\JSON.API.Deserialize.Response.csproj", "{DBBB2DE8-C794-42E1-A6BA-F947D448EDEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.Deserialize.Response.Consumer", "JSON.Deserialize.Response.Consumer\JSON.Deserialize.Response.Consumer.csproj", "{6A0012AF-F672-4A96-B382-DEDEC2987211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSON.Deserialize.Response.Consumer", "JSON.Deserialize.Response.Consumer\JSON.Deserialize.Response.Consumer.csproj", "{6A0012AF-F672-4A96-B382-DEDEC2987211}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONDocument.Deserialization", "JSONDocument.Deserialization\JSONDocument.Deserialization.csproj", "{D6D7FA8E-047A-4E26-A77C-8ABC82F07AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONDocument.Deserialization", "JSONDocument.Deserialization\JSONDocument.Deserialization.csproj", "{D6D7FA8E-047A-4E26-A77C-8ABC82F07AF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{9FF17445-F130-45D7-B222-D2058AEA7D98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,10 @@ Global
 		{D6D7FA8E-047A-4E26-A77C-8ABC82F07AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D7FA8E-047A-4E26-A77C-8ABC82F07AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D7FA8E-047A-4E26-A77C-8ABC82F07AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF17445-F130-45D7-B222-D2058AEA7D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF17445-F130-45D7-B222-D2058AEA7D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF17445-F130-45D7-B222-D2058AEA7D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF17445-F130-45D7-B222-D2058AEA7D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
